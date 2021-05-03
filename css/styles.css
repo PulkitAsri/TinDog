@@ -1,0 +1,32 @@
+#title{
+    background-color: #ff4c68;
+
+}
+.container-fluid{
+    padding: 3% 15% ;
+}
+
+h1{
+    font-family: 'Montserrat-black',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-bold',sans-serif;
+}
+
+#features{
+    padding:  5% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ff8c9d;
+    margin: 1rem ;
+}
+.icon:hover{
+    color: #ff4c68;
+
+}
