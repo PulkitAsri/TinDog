@@ -1,10 +1,11 @@
 #title{
     background-color: #ff4c68;
-    color:#FFFFFF
+    color:#FFFFFF;
+    padding: 0 3% 0;
 
 }
 .container-fluid{
-    padding: 3% 15% ;
+    padding: 3% 7% 15% ;
 }
 
 h1{
@@ -19,17 +20,24 @@ h2{
 h3{
     font-family: 'Montserrat-bold',sans-serif;
 }
+
 .navbar-light .navbar-brand{
     color: #ffffff;
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgb(255 255 255 / 90%);
+
+
+.title-image{
+    transform: rotate(15deg);
+    width:25%;
+    position: absolute;
 }
 
 
 
 #features{
     padding:  5% 15%;
+    background-color: #ffffff;
+    position: relative;
 }
 .feature-box{
     text-align: center;
@@ -88,5 +96,19 @@ h3{
 
 .pricing-col{
     padding: 3% 2%;
+    
+}
+
+
+
+@media (max-width:1080px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        width :70%
+    }
     
 }
